@@ -1,0 +1,229 @@
+
+	* {
+		margin: 0;
+		padding: 0px;
+		scroll-behavior: smooth;
+		box-sizing:border-box;
+	}
+
+body {
+	background: #ffffff;
+	margin: 0;
+	height: 100%;
+	color: #0a2f5a;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	}
+
+h1, h3, h4, h5 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	padding: 0;
+	margin-bottom: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 10px;
+}
+
+a {
+	color:white;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	transition: background-color .4s linear, color .4s linear;
+}
+a:hover {
+  color:#28a5db;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+	border-color: #fff;
+}
+  
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background: #0a2f5a;
+}
+  
+.menuicon {
+	color:white;
+}
+
+.menuicon:hover {
+	color:#28a5db
+}
+
+.dropdown-menu {
+	background: #0a2f5a;
+}
+
+.dropdown-menu > li > a {
+	color: white;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.navbar {
+	min-height: 70px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+.navbar-header .navbar-brand {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color:white;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #28a5db;
+}
+
+
+.navbar-default {
+	background-color: #0a2f5a;
+	border-color: transparent;
+}
+
+.hline {
+	border-bottom: 2px solid #0a2f5a;
+}
+
+.hline-w {
+	border-bottom: 2px solid #ffffff;
+	margin-bottom: 25px;
+}
+main {
+	background-color: #28a5db;
+	background-image: url("./images/DSC08088.JPG");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
+	padding-top: 100px;
+}
+
+#headerwrap {
+	
+	min-height: 300px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+#headerwrap h3, h5 {
+	color: white;
+	font-weight: 400;
+}
+
+#headerwrap h1 {
+	color: white;
+	margin-bottom: 25px;
+}
+
+#maincontent {
+	text-align: center;
+}
+
+
+#contact {
+	text-align: center;
+}
+
+#admin1 h3, #admin2 h3{
+	height: 150px;
+	margin: 50px auto;
+	background: rgb(32, 224, 90);
+	border:1px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 6px #023a02;
+	line-height: 150px;
+}
+
+#admin1 h3:active, #admin2 h3:active {
+	position: relative;
+	top: 6px;
+	left: 2px;
+	box-shadow: none;
+}
+
+a, a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#name, #subject, #email, #message{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+#message {
+	height:200px;
+  }
+  
+#submit {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+#submit:hover {
+	background-color: #45a049;
+  }
+  
+.contactform {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	font-family: sans-serif;
+	margin-bottom: 70px;
+	margin-top: 100px;
+  }
+
+#footerwrap {
+	margin-top:0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #0a2f5a;
+}
+
+#footerwrap p {
+	color: white;
+}
+
+#footerwrap h4 {
+	color: white;
+}
+
+#footerwrap i {
+	font-size: 30px;
+	color: white;
+	padding-right: 25px;
+}
+
+#footerwrap i:hover {
+	color: #28a5db
+}
+
